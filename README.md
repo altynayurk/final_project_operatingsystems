@@ -1,4 +1,4 @@
-![Alt text](images/Screenshot_1_level.png)  
+
 # Docker Mini Project: Timetable Webpage with PostgreSQL
 This project creates a simple webpage to check timetables using resources from Docker. It includes setting up PostgreSQL in Docker, building a Flask application, and configuring multi-container Docker setups.
 
