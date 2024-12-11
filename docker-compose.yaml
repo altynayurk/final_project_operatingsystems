@@ -1,0 +1,20 @@
+
+version: '3'
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: student
+      POSTGRES_PASSWORD: student_pass
+      POSTGRES_DB: ALTUSHA
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db-scripts:/docker-entrypoint-initdb.d
+
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
