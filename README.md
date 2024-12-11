@@ -234,4 +234,8 @@ docker-compose up --build
 ### 7. **Accessing the Application**
 
 - Navigate to `http://127.0.0.1:8000` in your web browser to see the application in action.
-
+  
+<img src="https://i.imghippo.com/files/KRR1335Otw.jpg" alt="" border="0">
+<img src="https://i.imghippo.com/files/hVrn4994Cc.jpg" alt="" border="0">
+<img src="https://i.imghippo.com/files/gxC2800haU.jpg" alt="" border="0">
+<img src="https://i.imghippo.com/files/xLCN7450sbo.jpg" alt="" border="0">
